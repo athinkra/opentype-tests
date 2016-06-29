@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16AEC_16AF1" format="1">
+  <advance width="797"/>
+  <outline>
+    <contour>
+      <point x="724" y="343" type="qcurve" smooth="yes"/>
+      <point x="724" y="320"/>
+      <point x="706" y="280"/>
+      <point x="676" y="250"/>
+      <point x="636" y="232"/>
+      <point x="613" y="232" type="qcurve"/>
+      <point x="613" y="277" type="line"/>
+      <point x="640" y="277"/>
+      <point x="679" y="316"/>
+      <point x="679" y="343" type="qcurve" smooth="yes"/>
+      <point x="679" y="370"/>
+      <point x="640" y="408"/>
+      <point x="613" y="408" type="qcurve"/>
+      <point x="613" y="453" type="line"/>
+      <point x="636" y="453"/>
+      <point x="676" y="436"/>
+      <point x="706" y="406"/>
+      <point x="724" y="366"/>
+    </contour>
+    <contour>
+      <point x="797" y="-24" type="line"/>
+      <point x="508" y="118" type="line"/>
+      <point x="59" y="323" type="line" smooth="yes"/>
+      <point x="43" y="330"/>
+      <point x="43" y="356"/>
+      <point x="59" y="363" type="qcurve" smooth="yes"/>
+      <point x="509" y="567" type="line"/>
+      <point x="797" y="711" type="line"/>
+      <point x="797" y="581" type="line"/>
+      <point x="120" y="343" type="line"/>
+      <point x="797" y="105" type="line"/>
+    </contour>
+  </outline>
+</glyph>

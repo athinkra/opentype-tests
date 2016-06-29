@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16AEC" format="1">
+  <advance width="797"/>
+  <unicode hex="16AEC"/>
+  <outline>
+    <contour>
+      <point x="797" y="-24" type="line"/>
+      <point x="508" y="118" type="line"/>
+      <point x="59" y="323" type="line" smooth="yes"/>
+      <point x="43" y="330"/>
+      <point x="43" y="356"/>
+      <point x="59" y="363" type="qcurve" smooth="yes"/>
+      <point x="509" y="567" type="line"/>
+      <point x="797" y="711" type="line"/>
+      <point x="797" y="581" type="line"/>
+      <point x="120" y="343" type="line"/>
+      <point x="797" y="105" type="line"/>
+    </contour>
+  </outline>
+</glyph>

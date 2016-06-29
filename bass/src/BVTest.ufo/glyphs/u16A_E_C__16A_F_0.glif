@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u16AEC_16AF0" format="1">
+  <advance width="797"/>
+  <outline>
+    <contour>
+      <point x="707" y="348" type="qcurve" smooth="yes"/>
+      <point x="707" y="333"/>
+      <point x="686" y="312"/>
+      <point x="672" y="312" type="qcurve" smooth="yes"/>
+      <point x="657" y="312"/>
+      <point x="636" y="333"/>
+      <point x="636" y="348" type="qcurve" smooth="yes"/>
+      <point x="636" y="362"/>
+      <point x="657" y="383"/>
+      <point x="672" y="383" type="qcurve" smooth="yes"/>
+      <point x="686" y="383"/>
+      <point x="707" y="362"/>
+    </contour>
+    <contour>
+      <point x="797" y="-24" type="line"/>
+      <point x="508" y="118" type="line"/>
+      <point x="59" y="323" type="line" smooth="yes"/>
+      <point x="43" y="330"/>
+      <point x="43" y="356"/>
+      <point x="59" y="363" type="qcurve" smooth="yes"/>
+      <point x="509" y="567" type="line"/>
+      <point x="797" y="711" type="line"/>
+      <point x="797" y="581" type="line"/>
+      <point x="120" y="343" type="line"/>
+      <point x="797" y="105" type="line"/>
+    </contour>
+  </outline>
+</glyph>
