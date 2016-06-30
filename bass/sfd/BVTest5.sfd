@@ -4,14 +4,14 @@ FullName: BV Test 5
 FamilyName: BV Test 5
 Weight: Book
 Copyright: Copyright (c) 2016 by Athinkra. Original version of font copyright (c) 2012 by GlavyFonts.
-Version: 0.2
+Version: 0
 ItalicAngle: 0
 UnderlinePosition: -152
 UnderlineWidth: 20
 Ascent: 800
 Descent: 200
 InvalidEm: 0
-sfntRevision: 0x00010000
+sfntRevision: 0x00020000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1333915717
-ModificationTime: 1467165415
+ModificationTime: 1467253797
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -57,8 +57,8 @@ OS2XHeight: 465
 OS2Vendor: 'pyrs'
 OS2CodePages: 20000101.40000000
 OS2UnicodeRanges: 8000002f.0200000a.00000000.00000000
-Lookup: 4 0 1 "'liga' Required Ligatures lookup 0" { "'liga' Required Ligatures lookup 0 subtable"  } ['liga' ('DLFT' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 4 0 1 "ligaCommonLigatureslookup0" { "ligaCommonLigatureslookup0 subtable"  } ['liga' ('DFLT' <'dflt' > ) ]
+Lookup: 258 0 0 "kernHorizontalKerninginLatinlookup0" { "kernHorizontalKerninginLatinlookup0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
@@ -1007,6 +1007,7 @@ EndChar
 StartChar: .null
 Encoding: 1114113 -1 1
 Width: 0
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1016,6 +1017,7 @@ EndChar
 StartChar: nonmarkingreturn
 Encoding: 1114114 -1 2
 Width: 333
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9014,7 +9016,7 @@ SplineSet
  594 179 594 179 595 335 c 0,16,17
 EndSplineSet
 Validated: 33
-Kerns2: 167 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 153 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 151 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 150 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 149 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 86 -22 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -111 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -91 "kernHorizontalKerninginLatinlookup0 subtable" 165 -91 "kernHorizontalKerninginLatinlookup0 subtable" 164 -91 "kernHorizontalKerninginLatinlookup0 subtable" 163 -91 "kernHorizontalKerninginLatinlookup0 subtable" 153 -44 "kernHorizontalKerninginLatinlookup0 subtable" 151 -44 "kernHorizontalKerninginLatinlookup0 subtable" 150 -44 "kernHorizontalKerninginLatinlookup0 subtable" 149 -44 "kernHorizontalKerninginLatinlookup0 subtable" 86 -22 "kernHorizontalKerninginLatinlookup0 subtable" 84 -111 "kernHorizontalKerninginLatinlookup0 subtable" 69 -91 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: P
@@ -11331,7 +11333,7 @@ SplineSet
  231 47 231 47 296 100 c 1,44,-1
 EndSplineSet
 Validated: 33
-Kerns2: 167 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -63 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -103 "kernHorizontalKerninginLatinlookup0 subtable" 165 -103 "kernHorizontalKerninginLatinlookup0 subtable" 164 -103 "kernHorizontalKerninginLatinlookup0 subtable" 163 -103 "kernHorizontalKerninginLatinlookup0 subtable" 84 -63 "kernHorizontalKerninginLatinlookup0 subtable" 69 -103 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: b
@@ -11546,7 +11548,7 @@ SplineSet
  396 128 396 128 396 222 c 0,23,24
 EndSplineSet
 Validated: 33
-Kerns2: 165 -105 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -105 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -105 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -159 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 82 -52 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 80 -23 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -105 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 165 -105 "kernHorizontalKerninginLatinlookup0 subtable" 164 -105 "kernHorizontalKerninginLatinlookup0 subtable" 163 -105 "kernHorizontalKerninginLatinlookup0 subtable" 84 -159 "kernHorizontalKerninginLatinlookup0 subtable" 82 -52 "kernHorizontalKerninginLatinlookup0 subtable" 80 -23 "kernHorizontalKerninginLatinlookup0 subtable" 69 -105 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: c
@@ -11932,7 +11934,7 @@ SplineSet
  318 42 318 42 361 88 c 1,35,-1
 EndSplineSet
 Validated: 33
-Kerns2: 167 -153 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -153 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -153 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -153 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -143 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -153 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -153 "kernHorizontalKerninginLatinlookup0 subtable" 165 -153 "kernHorizontalKerninginLatinlookup0 subtable" 164 -153 "kernHorizontalKerninginLatinlookup0 subtable" 163 -153 "kernHorizontalKerninginLatinlookup0 subtable" 84 -143 "kernHorizontalKerninginLatinlookup0 subtable" 69 -153 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: e
@@ -12176,7 +12178,7 @@ SplineSet
  452 669 452 669 452 635 c 0,0,1
 EndSplineSet
 Validated: 1
-Kerns2: 167 -52 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -52 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -52 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -52 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -79 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -52 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -52 "kernHorizontalKerninginLatinlookup0 subtable" 165 -52 "kernHorizontalKerninginLatinlookup0 subtable" 164 -52 "kernHorizontalKerninginLatinlookup0 subtable" 163 -52 "kernHorizontalKerninginLatinlookup0 subtable" 84 -79 "kernHorizontalKerninginLatinlookup0 subtable" 69 -52 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: g
@@ -12723,7 +12725,7 @@ SplineSet
  266 0 l 1,12,-1
 EndSplineSet
 Validated: 1
-Kerns2: 167 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 153 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 151 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 150 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 149 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 90 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -95 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 82 -92 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 51 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -150 "kernHorizontalKerninginLatinlookup0 subtable" 165 -150 "kernHorizontalKerninginLatinlookup0 subtable" 164 -150 "kernHorizontalKerninginLatinlookup0 subtable" 163 -150 "kernHorizontalKerninginLatinlookup0 subtable" 153 -60 "kernHorizontalKerninginLatinlookup0 subtable" 151 -60 "kernHorizontalKerninginLatinlookup0 subtable" 150 -60 "kernHorizontalKerninginLatinlookup0 subtable" 149 -60 "kernHorizontalKerninginLatinlookup0 subtable" 90 -87 "kernHorizontalKerninginLatinlookup0 subtable" 84 -95 "kernHorizontalKerninginLatinlookup0 subtable" 82 -92 "kernHorizontalKerninginLatinlookup0 subtable" 69 -150 "kernHorizontalKerninginLatinlookup0 subtable" 51 -60 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: j
@@ -12824,7 +12826,7 @@ SplineSet
  195 10 l 2,12,13
 EndSplineSet
 Validated: 33
-Kerns2: 167 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -127 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -65 "kernHorizontalKerninginLatinlookup0 subtable" 165 -65 "kernHorizontalKerninginLatinlookup0 subtable" 164 -65 "kernHorizontalKerninginLatinlookup0 subtable" 163 -65 "kernHorizontalKerninginLatinlookup0 subtable" 84 -127 "kernHorizontalKerninginLatinlookup0 subtable" 69 -65 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: k
@@ -13023,7 +13025,7 @@ SplineSet
  267 0 l 1,0,-1
 EndSplineSet
 Validated: 33
-Kerns2: 167 -120 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -120 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -120 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -120 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -127 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -120 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -120 "kernHorizontalKerninginLatinlookup0 subtable" 165 -120 "kernHorizontalKerninginLatinlookup0 subtable" 164 -120 "kernHorizontalKerninginLatinlookup0 subtable" 163 -120 "kernHorizontalKerninginLatinlookup0 subtable" 84 -127 "kernHorizontalKerninginLatinlookup0 subtable" 69 -120 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: m
@@ -14154,7 +14156,7 @@ SplineSet
  354 446 354 446 354 422 c 0,0,1
 EndSplineSet
 Validated: 33
-Kerns2: 167 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 90 -13 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -125 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -87 "kernHorizontalKerninginLatinlookup0 subtable" 165 -87 "kernHorizontalKerninginLatinlookup0 subtable" 164 -87 "kernHorizontalKerninginLatinlookup0 subtable" 163 -87 "kernHorizontalKerninginLatinlookup0 subtable" 90 -13 "kernHorizontalKerninginLatinlookup0 subtable" 84 -125 "kernHorizontalKerninginLatinlookup0 subtable" 69 -87 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: s
@@ -14440,7 +14442,7 @@ SplineSet
  290 85 l 1,0,1
 EndSplineSet
 Validated: 33
-Kerns2: 167 -143 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -143 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -143 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -143 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -111 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -143 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -143 "kernHorizontalKerninginLatinlookup0 subtable" 165 -143 "kernHorizontalKerninginLatinlookup0 subtable" 164 -143 "kernHorizontalKerninginLatinlookup0 subtable" 163 -143 "kernHorizontalKerninginLatinlookup0 subtable" 84 -111 "kernHorizontalKerninginLatinlookup0 subtable" 69 -143 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: u
@@ -14718,7 +14720,7 @@ SplineSet
  511 446 l 1,0,1
 EndSplineSet
 Validated: 33
-Kerns2: 167 -184 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -184 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -184 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -184 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 142 -93 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 141 -93 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 140 -93 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 139 -93 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 92 -64 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 91 -78 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 86 -38 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -159 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 78 -123 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -184 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 41 -93 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -119 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -184 "kernHorizontalKerninginLatinlookup0 subtable" 165 -184 "kernHorizontalKerninginLatinlookup0 subtable" 164 -184 "kernHorizontalKerninginLatinlookup0 subtable" 163 -184 "kernHorizontalKerninginLatinlookup0 subtable" 142 -93 "kernHorizontalKerninginLatinlookup0 subtable" 141 -93 "kernHorizontalKerninginLatinlookup0 subtable" 140 -93 "kernHorizontalKerninginLatinlookup0 subtable" 139 -93 "kernHorizontalKerninginLatinlookup0 subtable" 92 -64 "kernHorizontalKerninginLatinlookup0 subtable" 91 -78 "kernHorizontalKerninginLatinlookup0 subtable" 86 -38 "kernHorizontalKerninginLatinlookup0 subtable" 84 -159 "kernHorizontalKerninginLatinlookup0 subtable" 78 -123 "kernHorizontalKerninginLatinlookup0 subtable" 69 -184 "kernHorizontalKerninginLatinlookup0 subtable" 41 -93 "kernHorizontalKerninginLatinlookup0 subtable" 38 -119 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: w
@@ -14827,7 +14829,7 @@ SplineSet
  742 446 l 1,0,1
 EndSplineSet
 Validated: 1
-Kerns2: 167 -112 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -112 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -112 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -112 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -63 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -112 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -112 "kernHorizontalKerninginLatinlookup0 subtable" 165 -112 "kernHorizontalKerninginLatinlookup0 subtable" 164 -112 "kernHorizontalKerninginLatinlookup0 subtable" 163 -112 "kernHorizontalKerninginLatinlookup0 subtable" 84 -63 "kernHorizontalKerninginLatinlookup0 subtable" 69 -112 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: x
@@ -14999,7 +15001,7 @@ SplineSet
  508 0 l 1,0,-1
 EndSplineSet
 Validated: 33
-Kerns2: 167 -197 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -197 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -197 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -197 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 142 -84 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 141 -84 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 140 -84 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 139 -84 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -207 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -197 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 41 -84 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -97 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -197 "kernHorizontalKerninginLatinlookup0 subtable" 165 -197 "kernHorizontalKerninginLatinlookup0 subtable" 164 -197 "kernHorizontalKerninginLatinlookup0 subtable" 163 -197 "kernHorizontalKerninginLatinlookup0 subtable" 142 -84 "kernHorizontalKerninginLatinlookup0 subtable" 141 -84 "kernHorizontalKerninginLatinlookup0 subtable" 140 -84 "kernHorizontalKerninginLatinlookup0 subtable" 139 -84 "kernHorizontalKerninginLatinlookup0 subtable" 84 -207 "kernHorizontalKerninginLatinlookup0 subtable" 69 -197 "kernHorizontalKerninginLatinlookup0 subtable" 41 -84 "kernHorizontalKerninginLatinlookup0 subtable" 38 -97 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: y
@@ -15200,7 +15202,7 @@ SplineSet
  445 446 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 167 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -47 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -32 "kernHorizontalKerninginLatinlookup0 subtable" 165 -32 "kernHorizontalKerninginLatinlookup0 subtable" 164 -32 "kernHorizontalKerninginLatinlookup0 subtable" 163 -32 "kernHorizontalKerninginLatinlookup0 subtable" 84 -47 "kernHorizontalKerninginLatinlookup0 subtable" 69 -32 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: braceleft
@@ -24096,7 +24098,7 @@ SplineSet
  594 179 594 179 595 335 c 0,25,26
 EndSplineSet
 Validated: 33
-Kerns2: 167 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 153 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 151 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 150 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -111 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -91 "kernHorizontalKerninginLatinlookup0 subtable" 165 -91 "kernHorizontalKerninginLatinlookup0 subtable" 164 -91 "kernHorizontalKerninginLatinlookup0 subtable" 163 -91 "kernHorizontalKerninginLatinlookup0 subtable" 153 -44 "kernHorizontalKerninginLatinlookup0 subtable" 151 -44 "kernHorizontalKerninginLatinlookup0 subtable" 150 -44 "kernHorizontalKerninginLatinlookup0 subtable" 84 -111 "kernHorizontalKerninginLatinlookup0 subtable" 69 -91 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: Oacute
@@ -24430,7 +24432,7 @@ SplineSet
  594 179 594 179 595 335 c 0,26,27
 EndSplineSet
 Validated: 33
-Kerns2: 167 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 153 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 151 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 150 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 149 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -111 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -91 "kernHorizontalKerninginLatinlookup0 subtable" 165 -91 "kernHorizontalKerninginLatinlookup0 subtable" 164 -91 "kernHorizontalKerninginLatinlookup0 subtable" 163 -91 "kernHorizontalKerninginLatinlookup0 subtable" 153 -44 "kernHorizontalKerninginLatinlookup0 subtable" 151 -44 "kernHorizontalKerninginLatinlookup0 subtable" 150 -44 "kernHorizontalKerninginLatinlookup0 subtable" 149 -44 "kernHorizontalKerninginLatinlookup0 subtable" 84 -111 "kernHorizontalKerninginLatinlookup0 subtable" 69 -91 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: Ocircumflex
@@ -24778,7 +24780,7 @@ SplineSet
  594 179 594 179 595 335 c 0,23,24
 EndSplineSet
 Validated: 33
-Kerns2: 167 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 153 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 151 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 150 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 149 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -111 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -91 "kernHorizontalKerninginLatinlookup0 subtable" 165 -91 "kernHorizontalKerninginLatinlookup0 subtable" 164 -91 "kernHorizontalKerninginLatinlookup0 subtable" 163 -91 "kernHorizontalKerninginLatinlookup0 subtable" 153 -44 "kernHorizontalKerninginLatinlookup0 subtable" 151 -44 "kernHorizontalKerninginLatinlookup0 subtable" 150 -44 "kernHorizontalKerninginLatinlookup0 subtable" 149 -44 "kernHorizontalKerninginLatinlookup0 subtable" 84 -111 "kernHorizontalKerninginLatinlookup0 subtable" 69 -91 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: Otilde
@@ -25511,7 +25513,7 @@ SplineSet
  594 179 594 179 595 335 c 0,40,41
 EndSplineSet
 Validated: 33
-Kerns2: 167 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 153 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 151 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 150 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 149 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -111 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -91 "kernHorizontalKerninginLatinlookup0 subtable" 165 -91 "kernHorizontalKerninginLatinlookup0 subtable" 164 -91 "kernHorizontalKerninginLatinlookup0 subtable" 163 -91 "kernHorizontalKerninginLatinlookup0 subtable" 153 -44 "kernHorizontalKerninginLatinlookup0 subtable" 151 -44 "kernHorizontalKerninginLatinlookup0 subtable" 150 -44 "kernHorizontalKerninginLatinlookup0 subtable" 149 -44 "kernHorizontalKerninginLatinlookup0 subtable" 84 -111 "kernHorizontalKerninginLatinlookup0 subtable" 69 -91 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: multiply
@@ -27507,7 +27509,7 @@ SplineSet
  231 47 231 47 296 100 c 1,53,-1
 EndSplineSet
 Validated: 33
-Kerns2: 167 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -63 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -103 "kernHorizontalKerninginLatinlookup0 subtable" 165 -103 "kernHorizontalKerninginLatinlookup0 subtable" 164 -103 "kernHorizontalKerninginLatinlookup0 subtable" 163 -103 "kernHorizontalKerninginLatinlookup0 subtable" 84 -63 "kernHorizontalKerninginLatinlookup0 subtable" 69 -103 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: aacute
@@ -27786,7 +27788,7 @@ SplineSet
  231 47 231 47 296 100 c 1,54,-1
 EndSplineSet
 Validated: 33
-Kerns2: 167 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -63 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -103 "kernHorizontalKerninginLatinlookup0 subtable" 165 -103 "kernHorizontalKerninginLatinlookup0 subtable" 164 -103 "kernHorizontalKerninginLatinlookup0 subtable" 163 -103 "kernHorizontalKerninginLatinlookup0 subtable" 84 -63 "kernHorizontalKerninginLatinlookup0 subtable" 69 -103 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: acircumflex
@@ -28072,7 +28074,7 @@ SplineSet
  231 47 231 47 296 100 c 1,51,-1
 EndSplineSet
 Validated: 33
-Kerns2: 167 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -63 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -103 "kernHorizontalKerninginLatinlookup0 subtable" 165 -103 "kernHorizontalKerninginLatinlookup0 subtable" 164 -103 "kernHorizontalKerninginLatinlookup0 subtable" 163 -103 "kernHorizontalKerninginLatinlookup0 subtable" 84 -63 "kernHorizontalKerninginLatinlookup0 subtable" 69 -103 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: atilde
@@ -28664,7 +28666,7 @@ SplineSet
  231 47 231 47 296 100 c 1,68,-1
 EndSplineSet
 Validated: 33
-Kerns2: 167 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -63 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -103 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -103 "kernHorizontalKerninginLatinlookup0 subtable" 165 -103 "kernHorizontalKerninginLatinlookup0 subtable" 164 -103 "kernHorizontalKerninginLatinlookup0 subtable" 163 -103 "kernHorizontalKerninginLatinlookup0 subtable" 84 -63 "kernHorizontalKerninginLatinlookup0 subtable" 69 -103 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: aring
@@ -30218,7 +30220,7 @@ SplineSet
  264 0 l 1,9,-1
 EndSplineSet
 Validated: 33
-Kerns2: 167 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 153 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 151 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 150 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 149 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 90 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -95 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 82 -92 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 51 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -150 "kernHorizontalKerninginLatinlookup0 subtable" 165 -150 "kernHorizontalKerninginLatinlookup0 subtable" 164 -150 "kernHorizontalKerninginLatinlookup0 subtable" 163 -150 "kernHorizontalKerninginLatinlookup0 subtable" 153 -60 "kernHorizontalKerninginLatinlookup0 subtable" 151 -60 "kernHorizontalKerninginLatinlookup0 subtable" 150 -60 "kernHorizontalKerninginLatinlookup0 subtable" 149 -60 "kernHorizontalKerninginLatinlookup0 subtable" 90 -87 "kernHorizontalKerninginLatinlookup0 subtable" 84 -95 "kernHorizontalKerninginLatinlookup0 subtable" 82 -92 "kernHorizontalKerninginLatinlookup0 subtable" 69 -150 "kernHorizontalKerninginLatinlookup0 subtable" 51 -60 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: iacute
@@ -30311,7 +30313,7 @@ SplineSet
  264 0 l 1,10,-1
 EndSplineSet
 Validated: 33
-Kerns2: 167 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 153 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 151 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 150 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 149 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 90 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -95 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 82 -92 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 51 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -150 "kernHorizontalKerninginLatinlookup0 subtable" 165 -150 "kernHorizontalKerninginLatinlookup0 subtable" 164 -150 "kernHorizontalKerninginLatinlookup0 subtable" 163 -150 "kernHorizontalKerninginLatinlookup0 subtable" 153 -60 "kernHorizontalKerninginLatinlookup0 subtable" 151 -60 "kernHorizontalKerninginLatinlookup0 subtable" 150 -60 "kernHorizontalKerninginLatinlookup0 subtable" 149 -60 "kernHorizontalKerninginLatinlookup0 subtable" 90 -87 "kernHorizontalKerninginLatinlookup0 subtable" 84 -95 "kernHorizontalKerninginLatinlookup0 subtable" 82 -92 "kernHorizontalKerninginLatinlookup0 subtable" 69 -150 "kernHorizontalKerninginLatinlookup0 subtable" 51 -60 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: icircumflex
@@ -30411,7 +30413,7 @@ SplineSet
  264 0 l 1,7,-1
 EndSplineSet
 Validated: 33
-Kerns2: 167 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 153 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 151 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 150 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 149 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 90 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -95 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 82 -92 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 51 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -150 "kernHorizontalKerninginLatinlookup0 subtable" 165 -150 "kernHorizontalKerninginLatinlookup0 subtable" 164 -150 "kernHorizontalKerninginLatinlookup0 subtable" 163 -150 "kernHorizontalKerninginLatinlookup0 subtable" 153 -60 "kernHorizontalKerninginLatinlookup0 subtable" 151 -60 "kernHorizontalKerninginLatinlookup0 subtable" 150 -60 "kernHorizontalKerninginLatinlookup0 subtable" 149 -60 "kernHorizontalKerninginLatinlookup0 subtable" 90 -87 "kernHorizontalKerninginLatinlookup0 subtable" 84 -95 "kernHorizontalKerninginLatinlookup0 subtable" 82 -92 "kernHorizontalKerninginLatinlookup0 subtable" 69 -150 "kernHorizontalKerninginLatinlookup0 subtable" 51 -60 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: idieresis
@@ -30566,7 +30568,7 @@ SplineSet
  264 0 l 1,24,-1
 EndSplineSet
 Validated: 33
-Kerns2: 167 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 165 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 164 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 163 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 153 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 151 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 150 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 149 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 90 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 84 -95 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 82 -92 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 69 -150 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 51 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 167 -150 "kernHorizontalKerninginLatinlookup0 subtable" 165 -150 "kernHorizontalKerninginLatinlookup0 subtable" 164 -150 "kernHorizontalKerninginLatinlookup0 subtable" 163 -150 "kernHorizontalKerninginLatinlookup0 subtable" 153 -60 "kernHorizontalKerninginLatinlookup0 subtable" 151 -60 "kernHorizontalKerninginLatinlookup0 subtable" 150 -60 "kernHorizontalKerninginLatinlookup0 subtable" 149 -60 "kernHorizontalKerninginLatinlookup0 subtable" 90 -87 "kernHorizontalKerninginLatinlookup0 subtable" 84 -95 "kernHorizontalKerninginLatinlookup0 subtable" 82 -92 "kernHorizontalKerninginLatinlookup0 subtable" 69 -150 "kernHorizontalKerninginLatinlookup0 subtable" 51 -60 "kernHorizontalKerninginLatinlookup0 subtable"
 EndChar
 
 StartChar: eth
@@ -53935,7 +53937,7 @@ SplineSet
  786 0 l 1,12,-1
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AE7 u16AF0
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AE7 u16AF0
 EndChar
 
 StartChar: u16AE7_16AF1
@@ -54146,7 +54148,7 @@ SplineSet
  786 0 l 1,18,-1
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AE7 u16AF1
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AE7 u16AF1
 EndChar
 
 StartChar: u16AE7_16AF2
@@ -54355,7 +54357,7 @@ SplineSet
  576 205 576 205 576 191 c 0,60,61
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AE7 u16AF2
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AE7 u16AF2
 EndChar
 
 StartChar: u16AE7_16AF3
@@ -54531,7 +54533,7 @@ SplineSet
  786 0 l 1,4,-1
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AE7 u16AF3
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AE7 u16AF3
 EndChar
 
 StartChar: u16AE7_16AF4
@@ -54794,7 +54796,7 @@ SplineSet
  786 0 l 1,30,-1
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AE7 u16AF4
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AE7 u16AF4
 EndChar
 
 StartChar: u16AE7_16AF4.alt
@@ -55697,7 +55699,7 @@ SplineSet
  466 251 466 251 466 237 c 0,93,94
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AE8 u16AF0
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AE8 u16AF0
 EndChar
 
 StartChar: u16AE8_16AF1
@@ -56221,7 +56223,7 @@ SplineSet
  496 250 496 250 496 227 c 256,93,94
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AE8 u16AF1
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AE8 u16AF1
 EndChar
 
 StartChar: u16AE8_16AF2
@@ -56729,7 +56731,7 @@ SplineSet
  466 170 466 170 466 156 c 0,105,106
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AE8 u16AF2
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AE8 u16AF2
 EndChar
 
 StartChar: u16AE8_16AF3
@@ -57215,7 +57217,7 @@ SplineSet
  521 212 l 1,93,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AE8 u16AF3
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AE8 u16AF3
 EndChar
 
 StartChar: u16AE8_16AF4
@@ -57733,7 +57735,7 @@ SplineSet
  426 247 426 247 426 233 c 0,111,112
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AE8 u16AF4
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AE8 u16AF4
 EndChar
 
 StartChar: u16AE8_16AF4.alt
@@ -59044,7 +59046,7 @@ SplineSet
  471 364 471 364 471 350 c 0,40,41
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AE9 u16AF0
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AE9 u16AF0
 EndChar
 
 StartChar: u16AE9_16AF1
@@ -59350,7 +59352,7 @@ SplineSet
  486 355 486 355 486 332 c 256,40,41
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AE9 u16AF1
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AE9 u16AF1
 EndChar
 
 StartChar: u16AE9_16AF2
@@ -59645,7 +59647,7 @@ SplineSet
  462 278 462 278 462 264 c 0,52,53
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AE9 u16AF2
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AE9 u16AF2
 EndChar
 
 StartChar: u16AE9_16AF3
@@ -59927,7 +59929,7 @@ SplineSet
  515 327 l 1,40,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AE9 u16AF3
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AE9 u16AF3
 EndChar
 
 StartChar: u16AE9_16AF4
@@ -60285,7 +60287,7 @@ SplineSet
  434 354 434 354 434 340 c 0,58,59
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AE9 u16AF4
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AE9 u16AF4
 EndChar
 
 StartChar: u16AE9_16AF4.alt
@@ -61391,7 +61393,7 @@ SplineSet
  943 424 943 424 943 355 c 256,12,13
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AEA u16AF0
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AEA u16AF0
 EndChar
 
 StartChar: u16AEA_16AF1
@@ -61874,7 +61876,7 @@ SplineSet
  943 424 943 424 943 355 c 256,18,19
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AEA u16AF1
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AEA u16AF1
 EndChar
 
 StartChar: u16AEA_16AF2
@@ -62329,7 +62331,7 @@ SplineSet
  943 424 943 424 943 355 c 256,24,25
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AEA u16AF2
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AEA u16AF2
 EndChar
 
 StartChar: u16AEA_16AF3
@@ -62771,7 +62773,7 @@ SplineSet
  943 424 943 424 943 355 c 256,4,5
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AEA u16AF3
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AEA u16AF3
 EndChar
 
 StartChar: u16AEA_16AF4
@@ -63293,7 +63295,7 @@ SplineSet
  943 424 943 424 943 355 c 256,30,31
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AEA u16AF4
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AEA u16AF4
 EndChar
 
 StartChar: u16AEA_16AF4.alt
@@ -64666,7 +64668,7 @@ SplineSet
  315 206 315 206 315 192 c 0,80,81
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AEB u16AF0
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AEB u16AF0
 EndChar
 
 StartChar: u16AEB_16AF1
@@ -65065,7 +65067,7 @@ SplineSet
  355 209 355 209 355 186 c 256,80,81
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AEB u16AF1
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AEB u16AF1
 EndChar
 
 StartChar: u16AEB_16AF2
@@ -65425,7 +65427,7 @@ SplineSet
  317 144 317 144 317 130 c 0,92,93
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AEB u16AF2
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AEB u16AF2
 EndChar
 
 StartChar: u16AEB_16AF3
@@ -65790,7 +65792,7 @@ SplineSet
  371 172 l 1,80,-1
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AEB u16AF3
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AEB u16AF3
 EndChar
 
 StartChar: u16AEB_16AF4
@@ -66241,7 +66243,7 @@ SplineSet
  277 206 277 206 277 192 c 0,98,99
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AEB u16AF4
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AEB u16AF4
 EndChar
 
 StartChar: u16AEB_16AF4.alt
@@ -67138,7 +67140,7 @@ SplineSet
  797 -24 l 1,12,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AEC u16AF0
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AEC u16AF0
 EndChar
 
 StartChar: u16AEC_16AF1
@@ -67236,7 +67238,7 @@ SplineSet
  797 -24 l 1,18,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AEC u16AF1
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AEC u16AF1
 EndChar
 
 StartChar: u16AEC_16AF2
@@ -67364,7 +67366,7 @@ SplineSet
  797 -24 l 1,24,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AEC u16AF2
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AEC u16AF2
 EndChar
 
 StartChar: u16AEC_16AF3
@@ -67419,7 +67421,7 @@ SplineSet
  797 -24 l 1,4,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AEC u16AF3
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AEC u16AF3
 EndChar
 
 StartChar: u16AEC_16AF4
@@ -67569,7 +67571,7 @@ SplineSet
  797 -24 l 1,30,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AEC u16AF4
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AEC u16AF4
 EndChar
 
 StartChar: u16AEC_16AF4.alt
@@ -68179,7 +68181,7 @@ SplineSet
  304 221 304 221 304 207 c 0,85,86
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AED u16AF0
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AED u16AF0
 EndChar
 
 StartChar: u16AED_16AF1
@@ -68590,7 +68592,7 @@ SplineSet
  353 218 353 218 353 195 c 256,89,90
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AED u16AF1
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AED u16AF1
 EndChar
 
 StartChar: u16AED_16AF2
@@ -68983,7 +68985,7 @@ SplineSet
  306 155 306 155 306 141 c 0,101,102
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AED u16AF2
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AED u16AF2
 EndChar
 
 StartChar: u16AED_16AF3
@@ -69363,7 +69365,7 @@ SplineSet
  366 182 l 1,89,-1
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AED u16AF3
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AED u16AF3
 EndChar
 
 StartChar: u16AED_16AF4
@@ -69826,7 +69828,7 @@ SplineSet
  277 212 277 212 277 198 c 0,107,108
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Required Ligatures lookup 0 subtable" u16AED u16AF4
+Ligature2: "ligaCommonLigatureslookup0 subtable" u16AED u16AF4
 EndChar
 
 StartChar: u16AED_16AF4.alt

@@ -1,7 +1,7 @@
 SplineFontDB: 3.0
-FontName: BVTest6
-FullName: BV Test 6
-FamilyName: BV Test 6
+FontName: BVTest5
+FullName: BV Test 5
+FamilyName: BV Test 5
 Weight: Book
 Copyright: Copyright (c) 2016 by Athinkra. Original version of font copyright (c) 2012 by GlavyFonts.
 Version: 0
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1333915717
-ModificationTime: 1467253896
+ModificationTime: 1467253832
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,7 @@ OS2XHeight: 465
 OS2Vendor: 'pyrs'
 OS2CodePages: 20000101.40000000
 OS2UnicodeRanges: 8000002f.0200000a.00000000.00000000
-Lookup: 4 0 1 "ligaCommonLigatureslookup0" { "ligaCommonLigatureslookup0 subtable"  } ['liga' ('bass' <'dflt' > ) ]
+Lookup: 4 0 1 "ligaCommonLigatureslookup0" { "ligaCommonLigatureslookup0 subtable"  } ['liga' ('DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "kernHorizontalKerninginLatinlookup0" { "kernHorizontalKerninginLatinlookup0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
