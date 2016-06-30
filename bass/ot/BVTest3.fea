@@ -1,4 +1,4 @@
-languagesystem DFLT dflt;
+languagesystem bass dflt;
 languagesystem latn dflt;
 
 
@@ -46,7 +46,7 @@ lookup rligRequiredLigatureslookup0 {
 
 feature rlig {
 
- script DFLT;
+ script bass;
      language dflt ;
       lookup rligRequiredLigatureslookup0;
 } rlig;
