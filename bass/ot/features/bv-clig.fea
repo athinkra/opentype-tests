@@ -1,0 +1,13 @@
+languagesystem DFLT dflt;
+languagesystem bass dflt;
+
+include(features/lookups.fea);
+
+feature clig {
+ script DFLT;
+    language dflt;
+     lookup toneContextGlyphs;
+ script bass;
+    language dflt ;
+     lookup toneContextGlyphs;
+} clig;

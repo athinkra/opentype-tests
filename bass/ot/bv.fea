@@ -1,0 +1,44 @@
+languagesystem DFLT dflt;
+languagesystem bass dflt;
+
+@vowel [u16AF0 u16AF1 u16AF2 u16AF3 u16AF4]
+@voweldotted [u16AF0.dot u16AF1.dot u16AF2.dot u16AF3.dot u16AF4.dot]
+
+lookup vowelToneGlyphs {
+    sub u16AE7 u16AF0  by u16AE7_u16AF0;
+    sub u16AE7 u16AF1  by u16AE7_u16AF1;
+    sub u16AE7 u16AF2  by u16AE7_u16AF2;
+    sub u16AE7 u16AF3  by u16AE7_u16AF3;
+    sub u16AE7 u16AF4  by u16AE7_u16AF4;
+    sub u16AE8 u16AF0  by u16AE8_u16AF0;
+    sub u16AE8 u16AF1  by u16AE8_u16AF1;
+    sub u16AE8 u16AF2  by u16AE8_u16AF2;
+    sub u16AE8 u16AF3  by u16AE8_u16AF3;
+    sub u16AE8 u16AF4  by u16AE8_u16AF4;
+    sub u16AE9 u16AF0  by u16AE9_u16AF0;
+    sub u16AE9 u16AF1  by u16AE9_u16AF1;
+    sub u16AE9 u16AF2  by u16AE9_u16AF2;
+    sub u16AE9 u16AF3  by u16AE9_u16AF3;
+    sub u16AE9 u16AF4  by u16AE9_u16AF4;
+    sub u16AEA u16AF0  by u16AEA_u16AF0;
+    sub u16AEA u16AF1  by u16AEA_u16AF1;
+    sub u16AEA u16AF2  by u16AEA_u16AF2;
+    sub u16AEA u16AF3  by u16AEA_u16AF3;
+    sub u16AEA u16AF4  by u16AEA_u16AF4;
+    sub u16AEB u16AF0  by u16AEB_u16AF0;
+    sub u16AEB u16AF1  by u16AEB_u16AF1;
+    sub u16AEB u16AF2  by u16AEB_u16AF2;
+    sub u16AEB u16AF3  by u16AEB_u16AF3;
+    sub u16AEB u16AF4  by u16AEB_u16AF4;
+    sub u16AEC u16AF0  by u16AEC_u16AF0;
+    sub u16AEC u16AF1  by u16AEC_u16AF1;
+    sub u16AEC u16AF2  by u16AEC_u16AF2;
+    sub u16AEC u16AF3  by u16AEC_u16AF3;
+    sub u16AEC u16AF4  by u16AEC_u16AF4;
+    sub u16AED u16AF0  by u16AED_u16AF0;
+    sub u16AED u16AF1  by u16AED_u16AF1;
+    sub u16AED u16AF2  by u16AED_u16AF2;
+    sub u16AED u16AF3  by u16AED_u16AF3;
+    sub u16AED u16AF4  by u16AED_u16AF4;
+    sub @vowel by @voweldotted;
+} vowelToneGlyphs;
